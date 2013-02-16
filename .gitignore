@@ -1,3 +1,10 @@
+/webroot/bootstrap
+/webroot/font/
+/webroot/fontAwesome
+/webroot/css/readable.css
+/webroot/css/readable-responsive.css
+/webroot/js/bootstrap.js
+
 # Others
 .DS_Store
 .DS_Store?
