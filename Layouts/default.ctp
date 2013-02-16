@@ -27,6 +27,7 @@
 
 			'/js/underscore-min',
 			'bootstrap.js',
+			'theme.js',
 		));
 
 		echo $this->fetch('script');

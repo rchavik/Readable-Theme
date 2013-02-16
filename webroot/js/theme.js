@@ -1,0 +1,3 @@
+$(function() {
+	$('*[data-title]').tooltip();
+});
