@@ -42,9 +42,12 @@
 				<div class="row-fluid">
 					<div id="content" class="clearfix">
 						<?php echo $this->element('admin/breadcrumb'); ?>
-						<div id="inner-content" class="span12">
+						<div id="inner-content" class="span8">
 							<?php echo $this->Layout->sessionFlash(); ?>
 							<?php echo $this->fetch('content'); ?>
+						</div>
+						<div class="span4">
+							<?php echo $this->Regions->blocks('right'); ?>
 						</div>
 					</div>
 					&nbsp;
