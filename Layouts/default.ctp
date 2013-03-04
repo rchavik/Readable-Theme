@@ -9,23 +9,23 @@
 		echo $this->Html->css(array(
 			'readable',
 			'readable-responsive',
-			'thickbox',
+			'/croogo/css/thickbox',
 		));
 		echo $this->Layout->js();
 		echo $this->Html->script(array(
-			'/js/html5',
-			'/js/jquery/jquery.min',
-			'/js/jquery/jquery-ui.min',
-			'/js/jquery/jquery.slug',
-			'/js/jquery/jquery.cookie',
-			'/js/jquery/jquery.hoverIntent.minified',
-			'/js/jquery/superfish',
-			'/js/jquery/supersubs',
-			'/js/jquery/jquery.tipsy',
-			'/js/jquery/jquery.elastic-1.6.1.js',
-			'/js/jquery/thickbox-compressed',
+			'/croogo/js/html5',
+			'/croogo/js/jquery/jquery.min',
+			'/croogo/js/jquery/jquery-ui.min',
+			'/croogo/js/jquery/jquery.slug',
+			'/croogo/js/jquery/jquery.cookie',
+			'/croogo/js/jquery/jquery.hoverIntent.minified',
+			'/croogo/js/jquery/superfish',
+			'/croogo/js/jquery/supersubs',
+			'/croogo/js/jquery/jquery.tipsy',
+			'/croogo/js/jquery/jquery.elastic-1.6.1.js',
+			'/croogo/js/jquery/thickbox-compressed',
 
-			'/js/underscore-min',
+			'/croogo/js/underscore-min',
 			'bootstrap.js',
 			'theme.js',
 		));
