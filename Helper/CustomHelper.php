@@ -19,8 +19,12 @@ class CustomHelper extends Helper {
  * @access public
  */
 	public $helpers = array(
-		'Html',
-		'Form',
+		'Html' => array(
+			'className' => 'Croogo.CroogoHtml',
+		),
+		'Form' => array(
+			'className' => 'Croogo.CroogoHtml',
+		),
 		'Session',
 		'Js',
 		'Layout',
